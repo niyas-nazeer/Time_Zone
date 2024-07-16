@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'time_zone.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'db_timezone',
+        'NAME': 'timezone',
         'USER': 'user_timezone',
         'PASSWORD': 'timezone',
         'HOST': 'localhost',
