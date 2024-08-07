@@ -1,0 +1,9 @@
+from .customer import customer_list, customer_detail
+from .admin import admin_list, admin_detail
+from .seller import seller_list, seller_detail
+from .products import products_list, products_detail
+from .inventory import inventory_list, inventory_detail
+from .cart import cart_list, cart_detail
+from .transaction import transaction_list, transaction_detail
+from .order import order_list, order_detail
+from .order_details import order_details_list, order_details_detail
